@@ -18,8 +18,20 @@
           );
         }
       }
+      class MyButton extends React.Component {
+        render() {
+          return (
+            <div>
+              <button> Jasons Button</button>
+            </div>
+          );
+        }
+      }
       ReactDOM.render(
         <Greeting />, document.getElementById('app')
+      );
+      ReactDOM.render(
+        <MyButton />, document.getElementById('app')
       );
     </script>
   </body>
